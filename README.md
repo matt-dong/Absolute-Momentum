@@ -12,4 +12,4 @@ Implementation of Gary Antonnaci's absolute momentum trading strategy. His full 
 
 [Return.py](Return.py) calculates technical indicators such as Maximum Drawdown, Sharpe Ratio, Mean, Standard Deviation, and Percentage of profitable months for all asset classes. The data is compiled into a table, which is saved into an excel workbook for analysis and future use.
 
-[Monthly Statistics.py](Monthly Statistics.py) returns the results of the momentum trading. Number of months spent holding the asset, number of months spent holding treasury bonds, number of buy/sell signals, and the average duration (in months) spent in assets/treasury bonds before switching are compiled into a table and saved into an excel workbook for analysis and comparison.
+[Monthly Statistics.py](Monthly_Statistics.py) returns the results of the momentum trading. Number of months spent holding the asset, number of months spent holding treasury bonds, number of buy/sell signals, and the average duration (in months) spent in assets/treasury bonds before switching are compiled into a table and saved into an excel workbook for analysis and comparison.
