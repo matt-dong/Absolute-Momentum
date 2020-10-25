@@ -36,7 +36,7 @@ for a in range(0, len(tickers)):
     
     ### Alpha Vantage has a limit of 3 calls/minute, so I have added a 60 second delay on every 3rd ticker
     if a % 3 == 2: 
-        with urllib.request.urlopen("https://www.alphavantage.co/query?function=TIME_SERIES_MONTHLY_ADJUSTED&symbol=" + tickers[a] + "&apikey=2QQ1TJQIHMI4DBOH") as url:
+        with urllib.request.urlopen("https://www.alphavantage.co/query?function=TIME_SERIES_MONTHLY_ADJUSTED&symbol=" + tickers[a] + "&apikey=APIKEY") as url:
             x = json.loads(url.read().decode())
             
             ### Use Adjusted Monthly Data
