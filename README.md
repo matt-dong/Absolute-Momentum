@@ -4,7 +4,7 @@ A programming project coded in Python by Matthew Dong under the guidance of Oakl
 Implementation of Gary Antonnaci's absolute momentum trading strategy. His full report can be found at https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2244633.
 
 ## Programs
-[Get Data.py](Get Data.py) accesses the AlphaVantage API to retrieve historical stock data and stores the data in an excel workbook for future use.
+[Get_Data.py](Get_Data.py) accesses the AlphaVantage API to retrieve historical stock data and stores the data in an excel workbook for future use.
 
 [Correlation.py](Correlation.py) calculates the correlation between any two investments over a given period of time.
 
